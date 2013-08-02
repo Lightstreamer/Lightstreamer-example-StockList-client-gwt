@@ -1,0 +1,1 @@
+Please get the Lightstreamer JavaScript Client library from here: \DOCS-SDKs\sdk_client_javascript\alternative_libs\ and copy the file named lightstreamer_globals.js into this folder with the "lightstreamer.js" name.
