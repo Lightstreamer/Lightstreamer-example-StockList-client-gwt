@@ -1,0 +1,89 @@
+<!doctype html>
+<!-- The DOCTYPE declaration above will set the    -->
+<!-- browser's rendering engine into               -->
+<!-- "Standards Mode". Replacing this declaration  -->
+<!-- with a "Quirks Mode" doctype may lead to some -->
+<!-- differences in layout.                        -->
+
+<!--
+LIGHTSTREAMER - www.lightstreamer.com
+  GWT Stock-List Demo
+Copyright (c) 2004-2013 Weswit Srl. All rights reserved.
+  
+  Copyright 2013 Weswit s.r.l.
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+
+
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <!-- include Lightstreamer libraries -->
+    <script src="lightstreamer/lightstreamer.js"></script>
+  
+
+    <!--                                                               -->
+    <!-- Consider inlining CSS to reduce the number of requested files -->
+    <!--                                                               -->
+    <link type="text/css" rel="stylesheet" href="css/GWT_StockListDemo_Basic.css">
+    <!-- Lightstreamer specific CSS stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/table.css" />
+
+    <!--                                           -->
+    <!-- Any title is fine                         -->
+    <!--                                           -->
+    <title>Lightstreamer :: Basic Stock-List Demo :: GWT</title>
+
+    <!--                                           -->
+    <!-- This script loads your compiled module.   -->
+    <!-- If you add any GWT meta tags, they must   -->
+    <!-- be added before this line.                -->
+    <!--                                           -->
+    <script type="text/javascript" language="javascript" src="gwt_stocklistdemo_basic/gwt_stocklistdemo_basic.nocache.js"></script>
+  </head>
+
+  <!--                                           -->
+  <!-- The body can have arbitrary html, or      -->
+  <!-- you can leave the body empty if you want  -->
+  <!-- to create a completely dynamic UI.        -->
+  <!--                                           -->
+  <body>
+    <div id="wrap" >
+      <!-- OPTIONAL: include this if you want history support -->
+      <iframe src="javascript:''" id="__gwt_historyFrame" tabIndex='-1' style="position:absolute;width:0;height:0;border:0"></iframe>
+      
+      <!-- RECOMMENDED if your web app will not function without JavaScript enabled -->
+      <noscript>
+        <div style="width: 22em; position: absolute; left: 50%; margin-left: -11em; color: red; background-color: white; border: 1px solid red; padding: 4px; font-family: sans-serif">
+          Your web browser must have JavaScript enabled
+          in order for this application to display correctly.
+        </div>
+      </noscript>
+
+      <table width="766" border="0">  
+        <tr>
+          <td><a href="http://www.lightstreamer.com" target="_blank">
+            <img src="images/logo.png" alt="LIGHTSTREAMER" hspace="0" border="0" /></a></td>
+          <td class="demoTitle">GWT BASIC STOCK-LIST DEMO</td>
+        </tr>
+      </table>
+
+      <br />
+      <!-- stock table is generated automatically by GWT Java code -->
+      <div id="lsGwtDynamic"></div>
+      <div class="disc">Simulated market data.</div>
+    </div>
+  </body>
+</html>
