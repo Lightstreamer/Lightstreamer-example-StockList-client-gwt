@@ -64,7 +64,7 @@ NOTE: in case of trouble reaching the server you may need to edit the debug conf
 
 # See Also #
 
-## Lightstreamer Adapters needed by these demo clients ##
+## Lightstreamer Adapters needed by this demo client ##
 
 * [Lightstreamer StockList Demo Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java)
 * [Lightstreamer Reusable Metadata Adapter in Java](https://github.com/Weswit/Lightstreamer-example-ReusableMetadata-adapter-java)
