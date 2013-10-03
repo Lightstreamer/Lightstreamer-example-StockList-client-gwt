@@ -7,7 +7,7 @@ This project contains a demo client showing integration between the Lightstreame
 <table>
   <tr>
     <td style="text-align: left">
-      &nbsp;<a href="http://service.lightstreamer.com/GWT_StockListDemo_Basic/" target="_blank"><img src="http://www.lightstreamer.com/img/demo/screen_gwt.png"></a>&nbsp;
+      &nbsp;<a href="http://service.lightstreamer.com/GWT_StockListDemo_Basic/" target="_blank"><img src="screen_gwt.png"></a>&nbsp;
       
     </td>
     <td>
