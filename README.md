@@ -2,8 +2,6 @@
 
 This project contains a demo client showing integration between the Lightstreamer JavaScript Client API library and [Google Web Toolkit (GWT)](http://code.google.com/webtoolkit/).
 
-## Google Web Toolkit (GWT) Stock-List Demo ##
-
 <table>
   <tr>
     <td style="text-align: left">
