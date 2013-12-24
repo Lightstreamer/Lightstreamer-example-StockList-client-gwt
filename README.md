@@ -1,5 +1,7 @@
 # Lightstreamer - Basic Stock-List Demo - GWT Client #
 
+<!-- START DESCRIPTION lightstreamer-example-stocklist-client-gwt -->
+
 This project contains a demo client showing integration between the Lightstreamer JavaScript Client API library and [Google Web Toolkit (GWT)](http://code.google.com/webtoolkit/).
 
 <table>
@@ -34,6 +36,8 @@ Check out the sources for further explanations.
 <i>NOTE: not all the functionalities of the Lightstreamer JavaScript Client API are exposed by  LSGWTLightstreamerClient and LSGWTSubscription. You can easily expand those functionalities using the [JavaScript Client API](http://www.lightstreamer.com/docs/client_javascript_uni_api/index.html) as a reference.<br>
 If in trouble, check out the [specific Lightstreamer forum](http://www.lightstreamer.com/vb/forumdisplay.php?f=29).</i>
 
+<!-- END DESCRIPTION lightstreamer-example-stocklist-client-gwt -->
+
 # Build #
 
 Before you can run the demo some dependencies need to be solved, please follow the instructions below otherwise you can run an online demonstration  hosted on our servers [here](http://service.lightstreamer.com/GWT_StockListDemo_Basic/).<br>
@@ -63,9 +67,12 @@ NOTE: in case of trouble reaching the server you may need to edit the debug conf
 # See Also #
 
 ## Lightstreamer Adapters needed by this demo client ##
+<!-- START RELATED_ENTRIES -->
 
 * [Lightstreamer - Stock- List Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java)
 * [Lightstreamer - Reusable Metadata Adapters- Java Adapter](https://github.com/Weswit/Lightstreamer-example-ReusableMetadata-adapter-java)
+
+<!-- END RELATED_ENTRIES -->
 
 ## Similar demo clients that may interest you ##
 
