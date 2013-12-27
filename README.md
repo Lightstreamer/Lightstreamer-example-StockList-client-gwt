@@ -1,4 +1,4 @@
-# Lightstreamer - Basic Stock-List Demo - GWT Client #
+# Lightstreamer - Basic Stock-List Demo - HTML (GWT) Client #
 
 <!-- START DESCRIPTION lightstreamer-example-stocklist-client-gwt -->
 
