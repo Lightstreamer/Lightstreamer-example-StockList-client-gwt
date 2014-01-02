@@ -19,7 +19,7 @@ This project contains a demo client showing integration between the Lightstreame
 
 This page uses the <b>JavaScript Client API for Lightstreamer</b> to handle the communications with Lightstreamer Server and uses a <b>GWT FlexTable</b> to display the real-time data pushed by Lightstreamer.<br>
 
-The demo includes the following client-side technologies:
+The demo includes the following client-side functionalities:
 * A [Subscription](http://www.lightstreamer.com/docs/client_javascript_uni_api/Subscription.html) containing 10 items, subscribed to in <b>MERGE</b> mode.
 
 ## Dig the code ##
