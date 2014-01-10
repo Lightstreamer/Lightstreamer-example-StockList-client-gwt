@@ -4,18 +4,8 @@
 
 This project contains a demo client showing integration between the Lightstreamer JavaScript Client API library and [Google Web Toolkit (GWT)](http://code.google.com/webtoolkit/).
 
-<table>
-  <tr>
-    <td style="text-align: left">
-      &nbsp;<a href="http://service.lightstreamer.com/GWT_StockListDemo_Basic/" target="_blank"><img src="screen_gwt.png"></a>&nbsp;
-      
-    </td>
-    <td>
-      &nbsp;An online demonstration is hosted on our servers at:<br>
-      &nbsp;<a href="http://service.lightstreamer.com/GWT_StockListDemo_Basic/" target="_blank">http://service.lightstreamer.com/GWT_StockListDemo_Basic/</a>
-    </td>
-  </tr>
-</table>
+![Demo ScreenShot](screen_gwt_large.png)<br>
+An online demonstration is hosted on our servers at: [http://service.lightstreamer.com/GWT_StockListDemo_Basic/](http://service.lightstreamer.com/GWT_StockListDemo_Basic/)<br>
 
 This page uses the <b>JavaScript Client API for Lightstreamer</b> to handle the communications with Lightstreamer Server and uses a <b>GWT FlexTable</b> to display the real-time data pushed by Lightstreamer.<br>
 
@@ -52,7 +42,7 @@ Obviously you also need to have the Lightstreamer 5.0 Colosseo server or newer i
 The next step is to complete your installation of the demo with a valid version of the Lightstreamer JavaScript Client API library. You can get the lib from here: <Lightstreamer HOME>\DOCS-SDKs\sdk_client_javascript\alternative_libs\ and copy the file named lightstreamer_globals.js into the war/lightstreamer folder of this project with the "lightstreamer.js" name.<br>
 You're now ready to import the project into Eclipse. Click on File->Import... then under General select Existing Projects into Workspace and choose the folder where you've exported this project.
 
-## Configure the demo ##
+## Configure the Demo ##
 Before you start, only if you have changed the server configuration, open the "src/gwtdemo/client/lsconfig.properties" file contained in this zip and change the host and port settings according to your environment (port is the port the Lightstreamer server is listening on).
 
 ## Compile and Run ##
@@ -74,7 +64,7 @@ NOTE: in case of trouble reaching the server you may need to edit the debug conf
 
 <!-- END RELATED_ENTRIES -->
 
-## Similar demo clients that may interest you ##
+## Related Projects ##
 
 * [Lightstreamer - Stock-List Demos - HTML Clients](https://github.com/Weswit/Lightstreamer-example-Stocklist-client-javascript)
 * [Lightstreamer - Basic Stock-List Demo - jQuery (jqGrid) Client](https://github.com/Weswit/Lightstreamer-example-StockList-client-jquery)
