@@ -22,7 +22,7 @@ This page uses the <b>JavaScript Client API for Lightstreamer</b> to handle the 
 The demo includes the following client-side functionalities:
 * A [Subscription](http://www.lightstreamer.com/docs/client_javascript_uni_api/Subscription.html) containing 10 items, subscribed to in <b>MERGE</b> mode.
 
-## Dig the code ##
+## Dig the Code ##
 
 Some binding are made to the html page (war/GWT_StockListDemo_Basic.html) to let the demo work:
 * The Lightstreamer JavaScript API Client library is included in the page. 
@@ -66,7 +66,7 @@ NOTE: in case of trouble reaching the server you may need to edit the debug conf
 
 # See Also #
 
-## Lightstreamer Adapters needed by this demo client ##
+## Lightstreamer Adapters Needed by This Demo Client ##
 <!-- START RELATED_ENTRIES -->
 
 * [Lightstreamer - Stock- List Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java)
