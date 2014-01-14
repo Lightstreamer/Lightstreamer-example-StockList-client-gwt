@@ -4,7 +4,7 @@
 
 This project contains a demo client showing integration between the Lightstreamer JavaScript Client API library and [Google Web Toolkit (GWT)](http://code.google.com/webtoolkit/).
 
-![Demo ScreenShot](screen_gwt_large.png)<br>
+[![Demo ScreenShot](screen_gwt_large.png)](http://service.lightstreamer.com/GWT_StockListDemo_Basic/)<br>
 An online demonstration is hosted on our servers at: [http://service.lightstreamer.com/GWT_StockListDemo_Basic/](http://service.lightstreamer.com/GWT_StockListDemo_Basic/)<br>
 
 This page uses the <b>JavaScript Client API for Lightstreamer</b> to handle the communications with Lightstreamer Server and uses a <b>GWT FlexTable</b> to display the real-time data pushed by Lightstreamer.<br>
