@@ -4,8 +4,8 @@
 
 This project contains a demo client showing integration between the Lightstreamer JavaScript Client API library and [Google Web Toolkit (GWT)](http://code.google.com/webtoolkit/).
 
-[![Demo ScreenShot](screen_gwt_large.png)](http://service.lightstreamer.com/GWT_StockListDemo_Basic/)<br>
-An online demonstration is hosted on our servers at: [http://service.lightstreamer.com/GWT_StockListDemo_Basic/](http://service.lightstreamer.com/GWT_StockListDemo_Basic/)<br>
+[![Demo ScreenShot](screen_gwt_large.png)](http://demos.lightstreamer.com/GWT_StockListDemo_Basic/)<br>
+An online demonstration is hosted on our servers at: [http://demos.lightstreamer.com/GWT_StockListDemo_Basic/](http://demos.lightstreamer.com/GWT_StockListDemo_Basic/)<br>
 
 This page uses the <b>JavaScript Client API for Lightstreamer</b> to handle the communications with Lightstreamer Server and uses a <b>GWT FlexTable</b> to display the real-time data pushed by Lightstreamer.<br>
 
@@ -30,7 +30,7 @@ If in trouble, check out the [specific Lightstreamer forum](http://www.lightstre
 
 # Build #
 
-Before you can run the demo some dependencies need to be solved, please follow the instructions below otherwise you can run an online demonstration  hosted on our servers [here](http://service.lightstreamer.com/GWT_StockListDemo_Basic/).<br>
+Before you can run the demo some dependencies need to be solved, please follow the instructions below otherwise you can run an online demonstration  hosted on our servers [here](http://demos.lightstreamer.com/GWT_StockListDemo_Basic/).<br>
 To directly import the project as is, you need the Eclipse IDE with the GWT plugin installed, go to [http://www.eclipse.org/](http://www.eclipse.org/) and download the latest eclipse distribution in its "classic" package.
   
 Go to [http://code.google.com/webtoolkit/](http://code.google.com/webtoolkit/) and follow the instructions to install the plugin in eclipse. (Hint, this is the update site you need:  http://dl.google.com/eclipse/plugin/x.x where x.x is the eclipse version you have; e.g. 3.6).
