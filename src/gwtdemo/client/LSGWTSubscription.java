@@ -105,7 +105,7 @@ public abstract class LSGWTSubscription {
 		var that = this;
 		mySub = null;
 
-        mySub = new Subscription(subscriptionMode, itemList, fieldList);
+        mySub = new $wnd.Lightstreamer.Subscription(subscriptionMode, itemList, fieldList);
         
         mySub.addListener({
         	onItemUpdate: function(itemUpdate) {

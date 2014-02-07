@@ -60,7 +60,7 @@ public class LSGWTLightstreamerClient {
      */
     
     private native JavaScriptObject createClient() /*-{
-        var client = new $wnd.LightstreamerClient(); 
+        var client = new $wnd.Lightstreamer.LightstreamerClient(); 
         return client;
    	}-*/;
       
@@ -91,7 +91,7 @@ public class LSGWTLightstreamerClient {
         } else {
         	thisSub.connectionSharing.enableSharing(this.@gwtdemo.client.LSGWTLightstreamerClient::engineName, "IGNORE", "CREATE");
         }
-        thisSub.addListener(new StatusWidget("left", "0px", true));
+        thisSub.addListener(new $wnd.Lightstreamer.StatusWidget("left", "0px", true));
     	thisSub.connect();  
     }-*/;
     
