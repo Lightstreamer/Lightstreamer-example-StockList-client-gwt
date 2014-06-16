@@ -1,5 +1,5 @@
 /*
- * Copyright 2014 Weswit Srl
+ * Copyright 2013 Weswit Srl
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -75,6 +75,15 @@ public class LSGWTLightstreamerClient {
         
         //the that variable will be used in the onEngine... callbacks to access this instance
         var that = this;
+       
+        var loggerProvider = new $wnd.Lightstreamer.SimpleLoggerProvider();
+        $wnd.Lightstreamer.LightstreamerClient.setLoggerProvider(loggerProvider);
+   
+        var cats = ["lightstreamer.stream","lightstreamer.protocol","lightstreamer.session","lightstreamer.subscriptions"]   
+        for (var i=0; i<cats.length; i++) {
+          var myAppender = new $wnd.Lightstreamer.ConsoleAppender("DEBUG",cats[i]);
+          loggerProvider.addLoggerAppender(myAppender);
+        }
        
             
         //so the LightstreamerClient is configured
