@@ -1,2 +1,2 @@
-Please get the suitable Lightstreamer JavaScript Client library from the [online generator](http://www.lightstreamer.com/distros/Lightstreamer_Allegro-Presto-Vivace_5_1_1_Colosseo_20131220/Lightstreamer/DOCS-SDKs/sdk_client_javascript/tools/generator.html) and copy the file into this folder with the "lightstreamer.js" name.<br>
+Please get the suitable Lightstreamer JavaScript Client library from the [online generator](http://www.lightstreamer.com/distros/Lightstreamer_Allegro-Presto-Vivace_5_1_1_Colosseo_20140310/Lightstreamer/DOCS-SDKs/sdk_client_javascript/tools/generator.html) and copy the file into this folder with the "lightstreamer.js" name.<br>
 Please be sure to include all the classes available and to flag the "Use namespaced globals" option.

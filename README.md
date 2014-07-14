@@ -22,7 +22,7 @@ Some binding are made to the html page (war/GWT_StockListDemo_Basic.html) to let
 * The Lightstreamer JavaScript API Client library is included in the page. 
 * A "lsGwtDynamic" div element is added to the page; this will be the place where the GWT FlexTable will be appended.
   
-The <b>LSGWTLightstreamerClient</b> class wraps the LightstreamerClient object, which is the JavaScript class responsible of handling the connections and subscriptions to the Lightstreamer server. 
+The <b>LSGWTLightstreamerClient</b> class wraps the LightstreamerClient object, which is the JavaScript class responsible of handling the connections and subscriptions to the Lightstreamer server.<br>
 The <b>LSGWTSubscription</b> class wraps the Subscription JavaScript class, which represents a Lightstreamer subscription. It is an abstract class; its subclass <b>LSGWTDemoTable</b> extends its functionalities implementing the handling of the updates and publishing them to a GWT FlexTable.
   
 Check out the sources for further explanations.
