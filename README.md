@@ -32,18 +32,30 @@ If in trouble, check out the [specific Lightstreamer forum](http://www.lightstre
 
 <!-- END DESCRIPTION lightstreamer-example-stocklist-client-gwt -->
 
+## Install
+
+If you want to install a version of this demo pointing to your local Lightstreamer Server, follow these steps:
+
+* Note that, as prerequisite, the [Lightstreamer - Stock- List Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java) has to be deployed on your local Lightstreamer Server instance. Please check out that project and follow the installation instructions provided with it.
+* Launch Lightstreamer Server.
+* Download the `deploy.zip` file that you can find in the [deploy release](https://github.com/Weswit/Lightstreamer-example-StockList-client-gwt/releases) of this project and extract the `GWT_StockListDemo_Basic.war` package.
+* Deploy the `GWT_StockListDemo_Basic.war` archive in your favorite Web Server, we tested it with [Apache Tomcat 7.0](http://tomcat.apache.org/download-70.cgi) by just copying the .war under the `webapps` folder.
+* From your favorite browser open http://localhost:9090/GWT_StockListDemo_Basic/ (obviously this applies if the web server responds to http://localhost:9090/ otherwise change it accordingly).
+
 ## Build
+
+To build your own version of `GWT_StockListDemo_Basic.war`, instead of using the one provided in the deploy.zip file from the Install section above, or just to run the demo with your IDE follow these steps.
 
 Before you can run the demo some dependencies need to be solved, please follow the instructions below otherwise you can run an online demonstration  hosted on our servers [here](http://demos.lightstreamer.com/GWT_StockListDemo_Basic/).<br>
 To directly import the project as is, you need the Eclipse IDE with the GWT plugin installed, go to [http://www.eclipse.org/](http://www.eclipse.org/) and download the latest eclipse distribution in its "classic" package.
   
 Go to [http://code.google.com/webtoolkit/](http://code.google.com/webtoolkit/) and follow the instructions to install the plugin in eclipse. (Hint, this is the update site you need:  http://dl.google.com/eclipse/plugin/x.x where x.x is the eclipse version you have; e.g. 3.6).
 
-<i>NOTE: You may also use the sources included in the zip with another IDE or without any IDE but such approach is not covered in this readme. In any case you need at least the GWT SDK.</i>
+<i>NOTE: You may also use the sources included in this project with another IDE or without any IDE but such approach is not covered in this readme. In any case you need at least the GWT SDK.</i>
 
 Obviously you also need to have the Lightstreamer 5.0 Colosseo server or newer installed somewhere. If you don't have it, go download it here: [http://www.lightstreamer.com/download](http://www.lightstreamer.com/download) and follow the instructions in the package to install it.
   
-The next step is to complete your installation of the demo with a valid version of the Lightstreamer JavaScript Client API library. You can get the lib from the [online generator](http://www.lightstreamer.com/distros/Lightstreamer_Allegro-Presto-Vivace_5_1_1_Colosseo_20131220/Lightstreamer/DOCS-SDKs/sdk_client_javascript/tools/generator.html) and copy the file into this folder with the `lightstreamer.js` name.
+The next step is to complete your installation of the demo with a valid version of the Lightstreamer JavaScript Client API library. You can get the lib from the [online generator](http://www.lightstreamer.com/distros/Lightstreamer_Allegro-Presto-Vivace_5_1_1_Colosseo_20140310/Lightstreamer/DOCS-SDKs/sdk_client_javascript/tools/generator.html) and copy the file into this folder with the `lightstreamer.js` name.
 Please be sure to include all the classes available and to flag the "Use namespaced globals" option.<br>
 You're now ready to import the project into Eclipse. Click on File->Import... then under General select Existing Projects into Workspace and choose the folder where you've exported this project.
 
