@@ -28,7 +28,7 @@ The <b>LSGWTSubscription</b> class wraps the Subscription JavaScript class, whic
 Check out the sources for further explanations.
   
 <i>NOTE: Not all the functionalities of the Lightstreamer JavaScript Client API are exposed by  LSGWTLightstreamerClient and LSGWTSubscription. You can easily expand those functionalities using the [JavaScript Client API](http://www.lightstreamer.com/docs/client_javascript_uni_api/index.html) as a reference.<br>
-If in trouble, check out the [specific Lightstreamer forum](http://www.lightstreamer.com/vb/forumdisplay.php?f=29).</i>
+If in trouble, check out the [Lightstreamer forum](http://forums.lightstreamer.com/forumdisplay.php?11-Client-APIs).</i>
 
 <!-- END DESCRIPTION lightstreamer-example-stocklist-client-gwt -->
 
