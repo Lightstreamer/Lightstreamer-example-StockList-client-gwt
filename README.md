@@ -2,7 +2,7 @@
 
 <!-- START DESCRIPTION lightstreamer-example-stocklist-client-gwt -->
 
-This project contains a demo client showing integration between the [Lightstreamer JavaScript Client API](http://www.lightstreamer.com/docs/client_javascript_uni_api/index.html) and [Google Web Toolkit (GWT)](http://code.google.com/webtoolkit/).
+This project contains a demo client showing integration between the [Lightstreamer JavaScript Client API](http://www.lightstreamer.com/docs/client_javascript_uni_api/index.html) and [Google Web Toolkit (GWT)](http://www.gwtproject.org/).
 
 ## Live Demo
 
@@ -39,7 +39,7 @@ If you want to install a version of this demo pointing to your local Lightstream
 * Note that, as prerequisite, the [Lightstreamer - Stock- List Demo - Java Adapter](https://github.com/Lightstreamer/Lightstreamer-example-Stocklist-adapter-java) has to be deployed on your local Lightstreamer Server instance. Please check out that project and follow the installation instructions provided with it.
 * Launch Lightstreamer Server.
 * Download the `deploy.zip` file that you can find in the [deploy release](https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-gwt/releases) of this project and extract the `GWT_StockListDemo_Basic.war` package.
-* Deploy the `GWT_StockListDemo_Basic.war` archive in your favorite Web Server. We tested it with [Apache Tomcat 7.0](http://tomcat.apache.org/download-70.cgi) by just copying the .war under the `webapps` folder.
+* Deploy the `GWT_StockListDemo_Basic.war` archive in your favorite Web Server. We tested it with [Apache Tomcat 8.0](http://tomcat.apache.org/download-80.cgi) by just copying the .war under the `webapps` folder.
 * From your favorite browser, open http://localhost:9090/GWT_StockListDemo_Basic/ (obviously, this applies if the web server responds to http://localhost:9090/, otherwise, change it accordingly).
 
 ## Build
@@ -49,7 +49,7 @@ To build your own version of `GWT_StockListDemo_Basic.war`, instead of using the
 Before you can run the demo, some dependencies need to be solved. Please follow the instructions below, otherwise you can run an online demonstration hosted on our servers [here](http://demos.lightstreamer.com/GWT_StockListDemo_Basic/).<br>
 To directly import the project as-is, you need the Eclipse IDE with the GWT plugin installed, go to [http://www.eclipse.org/](http://www.eclipse.org/) and download the latest eclipse distribution in its "classic" package.
   
-Go to [http://code.google.com/webtoolkit/](http://code.google.com/webtoolkit/) and follow the instructions to install the plugin in eclipse. (Hint, this is the update site you need:  http://dl.google.com/eclipse/plugin/x.x where x.x is the eclipse version you have; e.g. 3.6).
+Go to [http://www.gwtproject.org/download.html](http://www.gwtproject.org/download.html) and follow the instructions to install the plugin in eclipse. (Hint, this is the update site you need:  https://developers.google.com/eclipse/docs/install-eclipse-x.x where x.x is the eclipse version you have; e.g. 3.6).
 
 <i>NOTE: You may also use the sources included in this project with another IDE or without any IDE but such approach is not covered in this readme. In any case, you need at least the GWT SDK.</i>
 
