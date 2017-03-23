@@ -7,7 +7,7 @@ This project contains a demo client showing integration between the [Lightstream
 ## Live Demo
 
 [![Demo ScreenShot](screen_gwt_large.png)](http://demos.lightstreamer.com/GWT_StockListDemo_Basic/)<br>
-###[![](http://demos.lightstreamer.com/site/img/play.png) View live demo](http://demos.lightstreamer.com/GWT_StockListDemo_Basic/)<br>
+### [![](http://demos.lightstreamer.com/site/img/play.png) View live demo](http://demos.lightstreamer.com/GWT_StockListDemo_Basic/)<br>
 
 ## Details
 
