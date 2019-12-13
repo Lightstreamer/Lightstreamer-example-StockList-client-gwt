@@ -1,2 +1,3 @@
-Please get the suitable Lightstreamer JavaScript Client library from the [online generator](http://www.lightstreamer.com/docs/client_javascript_tools/generator.html) and copy the file into this folder with the "lightstreamer.js" name.<br>
+Please build the suitable Lightstreamer JavaScript Client library from the provided generator and copy the file into this folder with the "lightstreamer.js" name;
+see the build instructions on the [GitHub page](https://github.com/Lightstreamer/Lightstreamer-lib-client-javascript#building).
 Please be sure to include all the classes available and to flag the "Use namespaced globals" option.
