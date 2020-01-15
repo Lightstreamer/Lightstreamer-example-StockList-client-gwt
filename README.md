@@ -58,7 +58,8 @@ Obviously, you also need to have the Lightstreamer 5.0 Colosseo server or newer 
 The next step is to complete your installation of the demo with a valid version of the Lightstreamer JavaScript Client API library.
 You can build the lib from the provided generator and copy the file into this folder with the `lightstreamer.js` name;
 see the build instructions on the [GitHub page](https://github.com/Lightstreamer/Lightstreamer-lib-client-javascript#building).
-Please be sure to include all the classes available and to flag the "Use namespaced globals" option.<br>
+Please be sure to include all the classes available.
+
 You're now ready to import the project into Eclipse. Click on File->Import... then under General, select Existing Projects into Workspace and choose the folder where you've exported this project.
 
 ### Configure the Demo 
