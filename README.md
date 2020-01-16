@@ -2,7 +2,7 @@
 
 <!-- START DESCRIPTION lightstreamer-example-stocklist-client-gwt -->
 
-This project contains a demo client showing integration between the [Lightstreamer JavaScript Client API](https://lightstreamer.com/api/ls-web-client/latest/index.html) and [Google Web Toolkit (GWT)](http://code.google.com/webtoolkit/).
+This project contains a demo client showing integration between the [Lightstreamer Web Client API](https://lightstreamer.com/api/ls-web-client/latest/index.html) and [Google Web Toolkit (GWT)](http://code.google.com/webtoolkit/).
 
 ## Live Demo
 
@@ -11,7 +11,7 @@ This project contains a demo client showing integration between the [Lightstream
 
 ## Details
 
-This page uses the <b>JavaScript Client API for Lightstreamer</b> to handle the communications with Lightstreamer Server and uses a <b>GWT FlexTable</b> to display the real-time data pushed by Lightstreamer.<br>
+This page uses the <b>Web Client SDK API for Lightstreamer</b> to handle the communications with Lightstreamer Server and uses a <b>GWT FlexTable</b> to display the real-time data pushed by Lightstreamer.<br>
 
 The demo includes the following client-side functionalities:
 * A [Subscription](https://lightstreamer.com/api/ls-web-client/latest/Subscription.html) containing 10 items, subscribed to in <b>MERGE</b> mode.
@@ -19,7 +19,7 @@ The demo includes the following client-side functionalities:
 ### Dig the Code
 
 Some binding are made to the html page (war/GWT_StockListDemo_Basic.html) to let the demo work:
-* The Lightstreamer JavaScript API Client library is included in the page. 
+* The Lightstreamer Web SDK Client library is included in the page. 
 * A "lsGwtDynamic" div element is added to the page; this will be the place where the GWT FlexTable will be appended.
   
 The <b>LSGWTLightstreamerClient</b> class wraps the LightstreamerClient object, which is the JavaScript class responsible of handling the connections and subscriptions to the Lightstreamer server.<br>
@@ -27,7 +27,7 @@ The <b>LSGWTSubscription</b> class wraps the Subscription JavaScript class, whic
   
 Check out the sources for further explanations.
   
-<i>NOTE: Not all the functionalities of the Lightstreamer JavaScript Client API are exposed by  LSGWTLightstreamerClient and LSGWTSubscription. You can easily expand those functionalities using the [JavaScript Client API](https://lightstreamer.com/api/ls-web-client/latest/index.html) as a reference.<br>
+<i>NOTE: Not all the functionalities of the Lightstreamer Web Client SDK API are exposed by  LSGWTLightstreamerClient and LSGWTSubscription. You can easily expand those functionalities using the [Web Client API](https://lightstreamer.com/api/ls-web-client/latest/index.html) as a reference.<br>
 If in trouble, check out the [specific Lightstreamer forum](http://www.lightstreamer.com/vb/forumdisplay.php?f=29).</i>
 
 <!-- END DESCRIPTION lightstreamer-example-stocklist-client-gwt -->
@@ -55,7 +55,7 @@ Go to [http://code.google.com/webtoolkit/](http://code.google.com/webtoolkit/) a
 
 Obviously, you also need to have the Lightstreamer 5.0 Colosseo server or newer installed somewhere. If you don't have it, go download it here: [http://www.lightstreamer.com/download](http://www.lightstreamer.com/download) and follow the instructions in the package to install it.
   
-The next step is to complete your installation of the demo with a valid version of the Lightstreamer JavaScript Client API library.
+The next step is to complete your installation of the demo with a valid version of the Lightstreamer Web Client SDK API library.
 You can build the lib from the provided generator and copy the file into this folder with the `lightstreamer.js` name;
 see the build instructions on the [GitHub page](https://github.com/Lightstreamer/Lightstreamer-lib-client-javascript#building).
 Please be sure to include all the classes available.
@@ -97,4 +97,6 @@ NOTE: In case of trouble reaching the server, you may need to edit the debug con
 
 ## Lightstreamer Compatibility Notes
 
-* Compatible with Lightstreamer JavaScript Client library version 6.0 or newer.
+* Compatible with Lightstreamer Web Client library version 8.0 or newer.
+
+* For a version of this example compatible with Lightstreamer SDK for Web Clients version 7.x or earlier, please refer to [this tag](https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-gwt/releases/tag/latest-for-client-7.x).
