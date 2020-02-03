@@ -56,7 +56,7 @@ Go to [http://code.google.com/webtoolkit/](http://code.google.com/webtoolkit/) a
 Obviously, you also need to have the Lightstreamer 5.0 Colosseo server or newer installed somewhere. If you don't have it, go download it here: [http://www.lightstreamer.com/download](http://www.lightstreamer.com/download) and follow the instructions in the package to install it.
   
 The next step is to complete your installation of the demo with a valid version of the Lightstreamer Web Client SDK API library.
-You can build the lib from the provided generator and copy the file into this folder with the `lightstreamer.js` name;
+You can build the lib from the provided generator and copy the file into this folder with the `lightstreamer.min.js` name;
 see the build instructions on the [GitHub page](https://github.com/Lightstreamer/Lightstreamer-lib-client-javascript#building).
 Please be sure to include all the classes available.
 
