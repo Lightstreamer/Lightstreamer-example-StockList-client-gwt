@@ -53,7 +53,7 @@ Go to [http://code.google.com/webtoolkit/](http://code.google.com/webtoolkit/) a
 
 <i>NOTE: You may also use the sources included in this project with another IDE or without any IDE but such approach is not covered in this readme. In any case, you need at least the GWT SDK.</i>
 
-Obviously, you also need to have the Lightstreamer 5.0 Colosseo server or newer installed somewhere. If you don't have it, go download it here: [http://www.lightstreamer.com/download](http://www.lightstreamer.com/download) and follow the instructions in the package to install it.
+Obviously, you also need to have Lightstreamer server installed somewhere. If you don't have it, go download it here: [http://www.lightstreamer.com/download](http://www.lightstreamer.com/download) and follow the instructions in the package to install it.
   
 The next step is to complete your installation of the demo with a valid version of the Lightstreamer Web Client SDK API library.
 You can build the lib from the provided generator and copy the file into this folder with the `lightstreamer.min.js` name;
