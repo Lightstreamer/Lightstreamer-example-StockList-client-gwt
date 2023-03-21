@@ -55,7 +55,7 @@ Go to [http://code.google.com/webtoolkit/](http://code.google.com/webtoolkit/) a
 
 Obviously, you also need to have Lightstreamer server installed somewhere. If you don't have it, go download it here: [http://www.lightstreamer.com/download](http://www.lightstreamer.com/download) and follow the instructions in the package to install it.
   
-The next step is to complete your installation of the demo with a valid version of the Lightstreamer Web Client SDK API library.
+The next step is to complete your installation of the demo with version 8.0 of the Lightstreamer Web Client SDK API library.
 You can build the lib from the provided generator and copy the file into this folder with the `lightstreamer.min.js` name;
 see the build instructions on the [GitHub page](https://github.com/Lightstreamer/Lightstreamer-lib-client-javascript#building).
 Please be sure to include all the classes available.
@@ -97,6 +97,6 @@ NOTE: In case of trouble reaching the server, you may need to edit the debug con
 
 ## Lightstreamer Compatibility Notes
 
-* Compatible with Lightstreamer Web Client library version 8.0 or newer.
+* Compatible with Lightstreamer Web Client library version 8.0.x.
 
 * For a version of this example compatible with Lightstreamer SDK for Web Clients version 7.x or earlier, please refer to [this tag](https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-gwt/releases/tag/latest-for-client-7.x).
