@@ -8,6 +8,8 @@ This project contains a demo client showing integration between the [Lightstream
 
 [![Demo ScreenShot](screen_gwt_large.png)](http://demos.lightstreamer.com/GWT_StockListDemo_Basic/)<br>
 ### [![](http://demos.lightstreamer.com/site/img/play.png) View live demo](http://demos.lightstreamer.com/GWT_StockListDemo_Basic/)<br>
+**Please note that the demo link is only available over HTTP and not HTTPS.**
+*This is because the demo has not been updated in a long time and does not support the HTTPS protocol. We apologize for any inconvenience this may cause.*
 
 ## Details
 
